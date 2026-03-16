@@ -117,7 +117,11 @@ const ServicesScreen = () => {
                     className="testimonial-decoration-leaf-left"
                 />
                 <Image
+<<<<<<< HEAD
                     src="/images/monstera-leaf-vector-illustrations-RADWZJU-3.png"
+=======
+                    src="https://kitpro.site/cabello/wp-content/uploads/sites/25/2021/05/monstera-leaf-vector-illustrations-RADWZJU-3.png"
+>>>>>>> 6fdfa07 (reduce large size images)
                     className="testimonial-decoration-leaf-right"
                 />
 

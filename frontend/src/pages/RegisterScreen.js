@@ -4,6 +4,10 @@ import { Form, Button, Row, Col, Container, Alert, Image, Spinner } from 'react-
 import { FaUser, FaEnvelope, FaPhone, FaBriefcase, FaLock } from 'react-icons/fa';
 import axios from 'axios';
 import registerimage from '../assets/register.png';
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6fdfa07 (reduce large size images)
 import '../style/Login.css';
 
 const RegisterScreen = () => {

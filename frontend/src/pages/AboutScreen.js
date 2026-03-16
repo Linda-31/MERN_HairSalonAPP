@@ -2,7 +2,11 @@ import React from 'react';
 import { Container, Row, Col, Image, ProgressBar } from 'react-bootstrap';
 import CountUp from 'react-countup';
 import { useInView } from 'react-intersection-observer';
+<<<<<<< HEAD
 import girlPortrait from '../assets/calm-portrait-of-beautiful-hipster-girl-standing-i-J4RDN2X-1.jpg';
+=======
+
+>>>>>>> 6fdfa07 (reduce large size images)
 import '../style/About.css';
 
 const AboutScreen = () => {
@@ -116,7 +120,11 @@ const AboutScreen = () => {
                 <Row className="g-0 align-items-center">
                     <Col lg={6} className="progress-image-col">
                         <Image
+<<<<<<< HEAD
                             src={girlPortrait}
+=======
+                            src="https://kitpro.site/cabello/wp-content/uploads/sites/25/2021/05/calm-portrait-of-beautiful-hipster-girl-standing-i-J4RDN2X-1.jpg"
+>>>>>>> 6fdfa07 (reduce large size images)
                             className="progress-image"
                         />
                     </Col>

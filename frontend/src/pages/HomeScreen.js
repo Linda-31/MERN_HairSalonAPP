@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { Container, Row, Col, Button, Image, ProgressBar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+<<<<<<< HEAD
 import girlPortrait from '../assets/calm-portrait-of-beautiful-hipster-girl-standing-i-J4RDN2X-1.jpg';
 import girl from '../assets/image1.jpg';
 import girl2 from '../assets/image.jpg';
@@ -11,6 +12,9 @@ import galleryImg3 from '../assets/image2.jpg';
 import galleryImg4 from '../assets/image3.jpg';
 import galleryImg5 from '../assets/image4.jpg';
 import galleryImg6 from '../assets/image5.jpg';
+=======
+
+>>>>>>> 6fdfa07 (reduce large size images)
 import '../style/Home.css';
 import '../style/About.css';
 import 'aos/dist/aos.css';
@@ -94,12 +98,20 @@ const HomeScreen = () => {
                         <Col lg={6}>
                             <div className="beauty-arch-images-wrapper">
                                 <Image
+<<<<<<< HEAD
                                     src={girl}
+=======
+                                    src="https://kitpro.site/cabello/wp-content/uploads/sites/25/2021/05/charming-client-getting-professional-makeup-in-bea-T3VZJFC-1319x1536.jpg"
+>>>>>>> 6fdfa07 (reduce large size images)
                                     className="beauty-arch-img-1"
                                     data-aos="fade-down"
                                 />
                                 <Image
+<<<<<<< HEAD
                                     src={girl2}
+=======
+                                    src="https://kitpro.site/cabello/wp-content/uploads/sites/25/2021/05/hairdresser-doing-haircut-for-women-in-hairdressin-P6ZJU5L-1319x1536.jpg"
+>>>>>>> 6fdfa07 (reduce large size images)
                                     className="beauty-arch-img-2"
                                     data-aos="fade-left"
                                 />
@@ -173,7 +185,11 @@ const HomeScreen = () => {
                 <Row className="g-0 align-items-stretch">
                     <Col lg={6}>
                         <Image
+<<<<<<< HEAD
                             src={girl3}
+=======
+                            src="https://kitpro.site/cabello/wp-content/uploads/sites/25/2021/05/gorgeous-bride-in-amazing-gown-walking-to-old-cast-DMTDK2N-1319x1536.jpg"
+>>>>>>> 6fdfa07 (reduce large size images)
                             className="beautiful-kind-image"
                         />
                     </Col>
@@ -198,7 +214,11 @@ const HomeScreen = () => {
                             <div className="team-arch-wrapper">
                                 <div className="team-arch-bg"></div>
                                 <Image
+<<<<<<< HEAD
                                     src={girlPortrait}
+=======
+                                    src="https://kitpro.site/cabello/wp-content/uploads/sites/25/2021/05/calm-portrait-of-beautiful-hipster-girl-standing-i-J4RDN2X-1.jpg"
+>>>>>>> 6fdfa07 (reduce large size images)
                                     className="progress-image"
                                     data-aos="fade-up"
                                 />
@@ -293,12 +313,21 @@ const HomeScreen = () => {
                         <Col lg={7}>
                             <div className="gallery-grid-wrapper">
                                 {[
+<<<<<<< HEAD
                                     galleryImg1,
                                     galleryImg2,
                                     galleryImg3,
                                     galleryImg4,
                                     galleryImg5,
                                     galleryImg6
+=======
+                                    'https://kitpro.site/cabello/wp-content/uploads/sites/25/2021/05/gorgeous-bride-in-amazing-gown-walking-to-old-cast-DMTDK2N-1319x1536.jpg',
+                                    'https://kitpro.site/cabello/wp-content/uploads/sites/25/2021/05/charming-client-getting-professional-makeup-in-bea-T3VZJFC-1319x1536.jpg',
+                                    'https://kitpro.site/cabello/wp-content/uploads/sites/25/2021/05/hairdresser-doing-haircut-for-women-in-hairdressin-P6ZJU5L-1319x1536.jpg',
+                                    'https://kitpro.site/cabello/wp-content/uploads/sites/25/2021/05/washing-off-hair-care-products-in-the-beauty-salon-NAYED3R-1319x1536.jpg',
+                                    'https://kitpro.site/cabello/wp-content/uploads/sites/25/2021/05/brides-hair-detail-with-curls-close-up-3Q3ULB8-879x1024.jpg',
+                                    'https://kitpro.site/cabello/wp-content/uploads/sites/25/2021/05/hairdresser-coiffeur-makes-hairstyle-P9CB2GF-879x1024.jpg'
+>>>>>>> 6fdfa07 (reduce large size images)
                                 ].map((img, idx) => (
                                     <div key={idx} className="gallery-item-frame">
                                         <Image src={img} className="gallery-img" />

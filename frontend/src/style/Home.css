@@ -61,7 +61,11 @@
 
 .story-section {
     position: relative;
+<<<<<<< HEAD
     background-image: url('../assets/girl-woman-camera-casual-photograph-photo-concept-PP8NFQH.jpg');
+=======
+    background-image: url('https://kitpro.site/cabello/wp-content/uploads/sites/25/2021/05/spa-setting-PE85KSJ.jpg');
+>>>>>>> 6fdfa07 (reduce large size images)
     background-size: cover;
     background-position: center;
     padding: 0px 0;
@@ -534,7 +538,11 @@
 /* BEAUTIFUL KIND SECTION */
 .beautiful-kind-section {
     background-color: #fff;
+<<<<<<< HEAD
     background-image: url('../assets/banner.jpg');
+=======
+    background-image: url('https://kitpro.site/cabello/wp-content/uploads/sites/25/2021/05/gorgeous-bride-in-amazing-gown-walking-to-old-cast-DMTDK2N-1319x1536.jpg');
+>>>>>>> 6fdfa07 (reduce large size images)
     background-size: cover;
 }
 
