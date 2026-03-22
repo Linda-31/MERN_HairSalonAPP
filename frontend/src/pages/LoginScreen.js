@@ -1,17 +1,9 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-<<<<<<< HEAD
 import { Form, Button, Row, Col, Container, Alert, Image, Spinner } from 'react-bootstrap';
 import { FaEnvelope, FaLock } from 'react-icons/fa';
 import axios from 'axios';
 import loginimage from '../assets/login.png';
-=======
-import { Form, Button, Container, Alert, Image, Spinner } from 'react-bootstrap';
-import { FaEnvelope, FaLock } from 'react-icons/fa';
-import axios from 'axios';
-import loginimage from '../assets/login.png';
-
->>>>>>> 6fdfa07 (reduce large size images)
 import '../style/Login.css';
 
 const LoginScreen = () => {

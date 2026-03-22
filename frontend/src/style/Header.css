@@ -11,18 +11,14 @@
     height: 50px;
     transition: transform 0.3s;
 }
-contact-nav-dropdown
+
 .header-logo:hover {
     transform: scale(1.05);
 }
 
 .header-nav-link {
     font-family: 'Cormorant', serif;
-<<<<<<< HEAD
-    font-weight: 600;
-=======
     font-weight: 800;
->>>>>>> 6fdfa07 (reduce large size images)
     color: #2F3E2F !important;
     /* Dark greenish gray */
     text-decoration: none;
@@ -68,11 +64,7 @@ contact-nav-dropdown
     border: none;
     border-radius: 0;
     font-family: 'Cormorant', serif;
-<<<<<<< HEAD
-    font-weight: 600;
-=======
     font-weight: 800;
->>>>>>> 6fdfa07 (reduce large size images)
     text-transform: uppercase;
     letter-spacing: 1px;
     padding: 8px 25px;
@@ -130,11 +122,7 @@ contact-nav-dropdown
 
 .custom-navbar-dropdown .dropdown-item {
     padding: 10px 20px;
-<<<<<<< HEAD
-    font-weight: 500;
-=======
     font-weight: 700;
->>>>>>> 6fdfa07 (reduce large size images)
 }
 
 /* drop-down */
@@ -162,9 +150,5 @@ contact-nav-dropdown
 
 .custom-navb .dropdown-item {
     padding: 10px 20px;
-<<<<<<< HEAD
-    font-weight: 500;
-=======
     font-weight: 700;
->>>>>>> 6fdfa07 (reduce large size images)
 }

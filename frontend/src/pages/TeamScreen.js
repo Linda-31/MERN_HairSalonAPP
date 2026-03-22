@@ -4,11 +4,7 @@ import axios from 'axios';
 import { FaFacebookF, FaTwitter, FaYoutube } from 'react-icons/fa';
 import '../style/Team.css';
 import '../style/About.css';
-<<<<<<< HEAD
-import girlPortrait from '../assets/calm-portrait-of-beautiful-hipster-girl-standing-i-J4RDN2X-1.jpg';
-=======
 
->>>>>>> 6fdfa07 (reduce large size images)
 
 const TeamScreen = () => {
     const [stylists, setStylists] = useState([]);
@@ -53,11 +49,7 @@ const TeamScreen = () => {
                             <div className="about-arch-wrapper">
                                 <div className="about-arch-container">
                                     <Image
-<<<<<<< HEAD
-                                        src={girlPortrait}
-=======
                                         src="https://kitpro.site/cabello/wp-content/uploads/sites/25/2021/05/calm-portrait-of-beautiful-hipster-girl-standing-i-J4RDN2X-1.jpg"
->>>>>>> 6fdfa07 (reduce large size images)
                                         className="about-arch-image"
                                     />
                                 </div>
