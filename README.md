@@ -36,5 +36,3 @@ A responsive hair salon booking platform built with the **MERN stack (MongoDB, E
 
 ---
 
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
