@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# Luxe Salon - Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is the frontend component of the Luxe Salon MERN application. A modern, premium web application for a hair salon, featuring service listings, stylist profiles, a gallery, and a user booking system.
 
-## Available Scripts
+## 🚀 Live Demo
+The application is hosted at: [https://mern-hairsalonapp-1.onrender.com](https://mern-hairsalonapp-1.onrender.com)
 
-In the project directory, you can run:
+## 🛠️ Tech Stack
+- **Framework**: [React.js](https://reactjs.org/) (v19)
+- **Styling**: 
+  - [Bootstrap 5](https://getbootstrap.com/) & [React-Bootstrap](https://react-bootstrap.github.io/)
+  - Custom SASS/CSS for premium aesthetics
+- **Animations**: [AOS (Animate On Scroll)](https://michalsnik.github.io/aos/)
+- **Icons**: [React Icons](https://react-icons.github.io/react-icons/) & [Lucide React](https://lucide.dev/)
+- **Data Fetching**: [Axios](https://axios-http.com/)
+- **Routing**: [React Router Dom](https://reactrouter.com/)
 
-### `npm start`
+## 📂 Project Structure
+```text
+frontend/
+├── src/
+│   ├── components/      # Reusable UI components (Header, Footer, etc.)
+│   ├── pages/           # Page-level components (Home, About, Gallery, etc.)
+│   ├── style/           # CSS/SASS stylesheets
+│   ├── assets/          # Static images and icons
+│   ├── App.js           # Main app routing
+│   └── index.js         # Entry point and Global Axios config
+├── public/              # Static public assets
+└── package.json         # Project dependencies and scripts
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## ⚙️ Configuration
+The frontend is configured to communicate with the backend via a global Axios base URL set in `src/index.js`:
+```javascript
+axios.defaults.baseURL = 'https://mern-hairsalonapp.onrender.com';
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🏃 Local Development
 
-### `npm test`
+### 1. Prerequisites
+- [Node.js](https://nodejs.org/) installed
+- Backend server running (refer to the `/backend` directory)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 2. Installation
+Navigate to the frontend directory and install dependencies:
+```bash
+cd frontend
+npm install
+```
 
-### `npm run build`
+### 3. Start the application
+Run the development server:
+```bash
+npm start
+```
+The app will be available at [http://localhost:3000](http://localhost:3000).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🔨 Available Scripts
+- `npm start`: Runs the app in development mode.
+- `npm run build`: Builds the app for production to the `build` folder.
+- `npm test`: Launches the test runner.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🎨 Design Features
+- **Premium Aesthetics**: Glassmorphism effects, curated color palettes, and modern typography.
+- **Micro-animations**: Subtle hover effects and smooth scroll transitions using AOS.
+- **Responsive Design**: Fully optimized for mobile, tablet, and desktop views.
