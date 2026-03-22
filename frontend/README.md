@@ -1,4 +1,4 @@
-# Luxe Salon - Frontend
+# Salon - Frontend
 
 This is the frontend component of the Luxe Salon MERN application. A modern, premium web application for a hair salon, featuring service listings, stylist profiles, a gallery, and a user booking system.
 
