@@ -7,7 +7,7 @@ A responsive hair salon booking platform built with the **MERN stack (MongoDB, E
 ## 🌐 Live Demo
 You can access the live version of this project here:
 
-HairSalon BookingApp:https://mern-hairsalonapp-1.onrender.com
+<b>HairSalon BookingApp:<b> https://mern-hairsalonapp-1.onrender.com
 
 ---
 
