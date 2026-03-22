@@ -16,8 +16,12 @@ dotenv.config();
 connectDB();
 
 const app = express();
-
-app.use(cors());
+const frontendURL = 'https://mern-hairsalonapp-1.onrender.com';
+app.use(cors({
+  origin: frontendURL,
+  methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  credentials: true, 
+}));
 app.use(express.json());
 
 app.use('/api/users', userRoutes);
